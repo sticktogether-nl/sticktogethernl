@@ -44,6 +44,6 @@ footer a:hover {
 }
 
 .picture {
-	max-width: 20;
-  max-height: 20;
+	max-width: 33%;
+  max-height: auto;
 }
