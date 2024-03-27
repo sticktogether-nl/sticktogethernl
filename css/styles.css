@@ -15,6 +15,11 @@ header {
 	background-color: #000060;
 }
 
+.header-one {
+	color: #EE4C39 !important;
+	font-family: "Roboto", sans-serif !important;
+	font-weight:600 !important;
+}
 /* Changing the background color for the navigation bar */
 
 .navbar {
@@ -33,10 +38,6 @@ header {
 }
 
 .hero-image {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	postion: relative;
 	background-image: url("../../Production/images/slide-3.jpg");
 	padding-top: 400px;
 }
