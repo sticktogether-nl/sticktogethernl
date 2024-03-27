@@ -43,6 +43,12 @@ footer a:hover {
 		0 0 .5em white;
 }
 
+
+.picture{
+	width: 50;
+	height: 50;
+}
+
 .polaroid {
 	width: 80%;
 	background-color: white;
