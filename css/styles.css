@@ -42,3 +42,10 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
