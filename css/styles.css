@@ -39,8 +39,15 @@ header {
 }
 
 .hero-image {
-	background-image: url("../../Production/images/slide-3.jpg");
+	background-image:url("../../Production/images/iStock-1440967752.jpg");
 	padding-top: 400px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	background-position: center;
+}
+
+.button {
+	background-color: #EE4C39;
 }
 
 .hero-text {
@@ -53,6 +60,17 @@ header {
 	margin-top: 100px;
 }
 
+.footer {
+	Background-color: #EE4C39;
+	color: white !important;
+}
+
+.section-two{
+	Background-color:#F1E0C9;
+}
+.container {
+	margin-top: 20px !important;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
@@ -62,7 +80,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #f6afca;
 	font-weight: bold;
 }
 
