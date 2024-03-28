@@ -45,4 +45,7 @@ footer a:hover {
 
 .portfolio-item{
 	background-color: white;
-}
+	max-width: 26rem;
+	margin-left: auto;
+	margin-right: auto;
+  }
