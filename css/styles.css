@@ -48,6 +48,7 @@ header {
 
 .button {
 	background-color: #EE4C39;
+	border-color: #EE4C39;
 }
 
 .hero-text {
@@ -72,12 +73,35 @@ header {
 	margin-top: 20px !important;
 }
 
-/* portfolio items*/
+.section-vi-va-right{
+	background-color:#FFFFFF;
+	padding: 30px;
+}
 
+.section-vi-va-left{
+	background-color: #F1E0C9;
+	padding: 30px;
+}
+
+/* portfolio items*/
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
+}
+
+/* footer */
+.footer-bg{
+	background-color:#EE4C39 !important;
 }
 
 /* Corporate navbar */
@@ -408,4 +432,7 @@ footer a:hover {
   font-weight: 900;
   font-style: italic;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35df54b0669530b0b8379f758c7c3031db0b76b3
