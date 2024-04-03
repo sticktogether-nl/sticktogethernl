@@ -46,17 +46,16 @@ header {
 	background-position: center;
 }
 
-.button {
-	background-color: #EE4C39;
-	border-color: #EE4C39;
-}
-
 a.button:hover, a.button:active {
 	color: #EE4C39 !important;
 	background-color: #f6afca;
 	border-color: #f6afca;
 }
 
+.button {
+	background-color: #EE4C39;
+	border-color: #EE4C39;
+}
 
 .hero-text {
   text-align: center;
@@ -86,9 +85,8 @@ a.button:hover, a.button:active {
 }
 
 .section-vi-va-left{
-	background-color: #f6afca;
+	background-color: #F1E0C9;
 	padding: 30px;
-	color: white !important;
 }
 
 /* portfolio items*/
@@ -109,7 +107,7 @@ footer a:hover {
 
 /* footer */
 .footer-bg{
-	background-color:#0d9277 !important;
+	background-color:#EE4C39 !important;
 }
 
 /* Corporate navbar */
@@ -122,10 +120,10 @@ footer a:hover {
 /* Hero Section shadow */
 
 .white-shadow {
-	text-shadow: -.01em -.01em .01em #f6afca,
-		.02em .02em .02em #f6afca,
-		0 0 .2em #f6afca,
-		0 0 .5em #f6afca;
+	text-shadow: -.01em -.01em .01em white,
+		.02em .02em .02em white,
+		0 0 .2em white,
+		0 0 .5em white;
 }
 
 /* Discover Our World Vision & Mission Section*/
@@ -292,7 +290,7 @@ footer a:hover {
 }
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 150px;
+    min-height: 150px;}
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
@@ -313,7 +311,7 @@ footer a:hover {
 
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px;
+    min-height: 170px;}
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
@@ -383,6 +381,21 @@ footer a:hover {
 .img-brand {
   height: 2.75rem;
 }
+
+/*contact section*/
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group textarea {
+  padding: 1.25rem;
+}
+
+.form-group input.form-control {
+  height: auto;
+}
+
 
 /* fonts below */
 
