@@ -19,7 +19,7 @@ header {
 	font-family: "Roboto", sans-serif !important;
 	font-weight:600 !important;
 	font-size: 40px;
-	padding-top: 40px;
+	padding-top: 60px;
 }
 /* Changing the background color for the navigation bar */
 
@@ -39,8 +39,8 @@ header {
 }
 
 .hero-image {
-	background-image:url("../../Production/images/iStock-1440967752.jpg");
-	padding-top: 400px;
+	background-image:url("../images/Ontwerp zonder titel-4.png");
+	padding-top: 800px;
 	background-repeat: no-repeat;
   	background-size: cover;
 	background-position: center;
@@ -50,6 +50,13 @@ header {
 	background-color: #EE4C39;
 	border-color: #EE4C39;
 }
+
+a.button:hover, a.button:active {
+	color: #EE4C39 !important;
+	background-color: #f6afca;
+	border-color: #f6afca;
+}
+
 
 .hero-text {
   text-align: center;
@@ -79,8 +86,9 @@ header {
 }
 
 .section-vi-va-left{
-	background-color: #F1E0C9;
+	background-color: #f6afca;
 	padding: 30px;
+	color: white !important;
 }
 
 /* portfolio items*/
@@ -101,7 +109,7 @@ footer a:hover {
 
 /* footer */
 .footer-bg{
-	background-color:#EE4C39 !important;
+	background-color:#0d9277 !important;
 }
 
 /* Corporate navbar */
@@ -114,10 +122,10 @@ footer a:hover {
 /* Hero Section shadow */
 
 .white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
+	text-shadow: -.01em -.01em .01em #f6afca,
+		.02em .02em .02em #f6afca,
+		0 0 .2em #f6afca,
+		0 0 .5em #f6afca;
 }
 
 .portfolio-item{
