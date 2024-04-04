@@ -385,11 +385,16 @@ footer a:hover {
 /*contact section*/
 
 .contact {
-  background-image:url("../images/contact-background.jpg");
+  background-image:url("../images/test-contact.jpg");
+  padding-top: 1000px;
+	background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center;
 }
 
-.contact-margin {
-  padding-top: 50rem 0;
+.text-contact{
+  padding-top: 4rem;
+  color: #fff;
 }
 
 /* fonts below */
