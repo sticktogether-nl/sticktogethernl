@@ -5,32 +5,67 @@
 </head>
 
 <body>
-	<div id="container">
-		<div id="slider-container">
-			<span onclick="slideRight()" class="btn"></span>
-			<div id="slider">
-				<div class="slide">
-					  <span class="fa-stack fa-4x">
-                        	<img src="images/buas.png" width="100" alt=""/> 
-						</span>
-					<h4 class="my-3">E-Commerce</h4>
-                        	<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-				</div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-				<div class="slide"><span>150x150</span></div>
-			</div>
-			<span onclick="slideLeft()" class="btn"></span>
-		</div>
-	</div>
+	<section>
+  <div id="cCarousel">
+    <div class="arrow" id="prev"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="arrow" id="next"><i class="fa-solid fa-chevron-right"></i></div>
 
-	<script src="carousel.js"></script>
+    <div id="carousel-vp">
+      <div id="cCarousel-inner">
+
+        <article class="cCarousel-item">
+          <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+            <h3>Title 1 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+            <h3>Title 2 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+            <h3>Title 3 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+            <h3>Title 4 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+            <h3>Title 5 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+            <h3>Title 6 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+	<!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
 
 </body>
 </html>
