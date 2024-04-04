@@ -6,7 +6,7 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: #fff;
 	margin: 0;
 	padding: 0;
 }
@@ -218,7 +218,7 @@ footer a:hover {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #f6afca;
   border-radius: 100%;
   background-color: #496afe;
 }
@@ -343,7 +343,7 @@ footer a:hover {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid  #0d9277;
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -391,19 +391,6 @@ footer a:hover {
   font-family: "Roboto", sans-serif !important;
   font-style: normal !important;
   color: black !important;
-}
-
-.subheader-two{
-  text-align: center !important;
-  white-space: wrap !important;
-  word-spacing: 10px !important;
-  line-height: 1.8 !important;
-  text-indent: 50px;
-  border: 3px solid #0d9277;
-  margin: auto;
-  width: auto;
-  padding: 90px;
-  font-size: 20px;
 }
 
 .page-section {
