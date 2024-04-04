@@ -58,7 +58,7 @@ header {
 	background-position: center;
 }
 
-a.button:hover, a.button:active {
+button.button:hover, button.button:active {
 	color: #EE4C39 !important;
 	background-color: #f6afca;
 	border-color: #f6afca;
