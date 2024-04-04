@@ -161,6 +161,10 @@ footer a:hover {
 
 /* Discover Our World Values Section*/
 
+.background-values{
+  background-color: #f6afca;
+}
+
 .timeline {
   position: relative;
   padding: 0;
