@@ -160,12 +160,6 @@ footer a:hover {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.polaroid {
-  padding-top: 2.7rem;
-  padding-bottom: 2.7rem;
-  text-align: center;
-  color: #f6afca;
-}
 
 /* Discover Our World Values Section*/
 
@@ -397,6 +391,19 @@ footer a:hover {
   font-family: "Roboto", sans-serif !important;
   font-style: normal !important;
   color: black !important;
+}
+
+.subheader-two{
+  text-align: center !important;
+  white-space: wrap !important;
+  word-spacing: 10px !important;
+  line-height: 1.8 !important;
+  text-indent: 50px;
+  border: 3px solid #0d9277;
+  margin: auto;
+  width: auto;
+  padding: 90px;
+  font-size: 20px;
 }
 
 .page-section {
