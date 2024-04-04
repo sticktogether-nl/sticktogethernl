@@ -13,16 +13,7 @@ body {
 
 /* Changing the background colour for the header */
 
-header {
-	background-color: #000060;
-}
 
-.header-one {
-	font-family: "Roboto", sans-serif !important;
-	font-weight:600 !important;
-	font-size: 40px;
-	padding-top: 60px;
-}
 
 /* cards content */
 .card-content {
@@ -391,6 +382,26 @@ footer a:hover {
 }
 
 /* fonts below */
+
+.header-one {
+	font-family: "Roboto", sans-serif !important;
+	font-weight:600 !important;
+	font-size: 40px;
+	padding-top: 60px;
+}
+
+.header-two{
+  font-family: "Roboto", sans-serif !important;
+  font-style: unset !important;
+  color: black !important;
+  text-transform: none !important;
+}
+
+.subheader{
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal !important;
+  color: black !important;
+}
 
 .page-section {
   padding: 6rem 0;
