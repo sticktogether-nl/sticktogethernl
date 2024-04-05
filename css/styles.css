@@ -149,7 +149,7 @@ footer a:hover {
 
 .kader{
 border-style: solid !important;
-border-color:#0d9277 !important;
+border-color:#496afe !important;
 border-width: 5px !important;
 width: 400px;
 margin: 3px;
@@ -157,6 +157,7 @@ padding: 20px;
 max-width: 26rem !important;
 margin-left: auto !important;
 margin-right: auto !important;
+border-radius: 1.25rem !important;
 }
 
 .portfolio-item{
@@ -367,7 +368,7 @@ margin-right: auto !important;
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid;
-  color: #EE4C39;
+  color:#0d9277;
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
