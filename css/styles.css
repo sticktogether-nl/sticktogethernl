@@ -58,6 +58,7 @@ button.button:hover, button.button:active {
 .button {
 	background-color: #EE4C39;
 	border-color: #EE4C39;
+	align-content: center !important;
 }
 
 .hero-text {
@@ -344,7 +345,6 @@ border-radius: 1.25rem !important;
   }
 }
 
-/* carousel */
 	
 
 /* team section*/
