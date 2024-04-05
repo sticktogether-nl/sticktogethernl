@@ -30,11 +30,11 @@
   </head>
   <body class="h-100 d-flex flex-column">
 
-       <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" width="60" alt="brand logo sticks crossing">&nbsp; &nbsp;STICK TOGETHER 
+          <img src="images/logo.png" width="60" alt="brand logo stick-together">&nbsp; &nbsp;STICK TOGETHER 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,14 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Discover Our Story</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="example.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Discover Our World </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="example.html">About us</a></li>
+                <li><a class="dropdown-item" href="example.html">Our Vision and Mission</a></li>
+                <li><a class="dropdown-item" href="example.html">Our Values</a></li>
+                <li><a class="dropdown-item" href="example.html">The Team</a></li>
+              </ul>
             </li>
 			   <li class="nav-item">
               <a class="nav-link" href="cards.html">What We Offer</a>
@@ -54,15 +60,16 @@
               <a class="nav-link" href="contact.html">Let's Connect</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Corporate
-              </a>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="corporate.html">Corporate</a>
+            </li>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
                 <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
                 <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+                <li><a class="dropdown-item" href="corporate.html">Corporate</a></li>
               </ul>
             </li>
           </ul>
@@ -89,7 +96,7 @@
   <main class="container my-4">
       <div class="row g-3 justify-content-evenly">
         <!-- package #1 -->
-        <div class="col-sm-2 col-lg-6 mb-4" id="package-1">
+        <div class="col-sm-8 col-lg-6 mb-4" id="package-1">
           <div class="card shadow h-100 card-content text-center">
 			  <img class="img-fluid" src="images/package-4.png" alt="Two girls laughing to eachother, while holding a hockey stick and water bottle">
             <div class="card-body">
@@ -99,7 +106,7 @@
 						 	<li class="header-two"> 4 hours, </li>
 						 	<li class="header-two"> Includes team diner,</li>
 								<li class="header-two"> 60 euros per team member</li> </p>
-				<p class="card-text header-two"> Want to know what sort of activities you can expect? Click <a href="https://www.instagram.com/sticktogethernl/">here</a> to read some example exercises and activities.</p>
+				<p class="card-text header-two"> Want to know what sort of activities you can expect? Click <a href="#examples">here</a> to read some example exercises and activities.</p>
             </div>
             <div class="card-footer p-2 text-center">
 				<a href="contact.html"> 
@@ -111,7 +118,7 @@
 		  
 
         <!-- package #2 -->
-        <div class="col-sm-2 col-lg-6 mb-4" id="package-2">
+        <div class="col-sm-8 col-lg-6 mb-4" id="package-2">
           <div class="card shadow h-100 card-content">
             <img class="img-fluid" src="images/package-1.png" alt="Placeholder Image">
             <div class="card-body">
@@ -121,7 +128,7 @@
 						  <li class="header-two"> 7 hours, </li>
 						  <li class="header-two"> Includes 2 meals,</li>
 							  <li class="header-two"> 90 euros per team member</li> </p>
-				<p class="card-text header-two"> Want to know what sort of activities you can expect? Click <a href="https://www.instagram.com/sticktogethernl/">here</a> to read some example exercises and activities.</p>
+				<p class="card-text header-two"> Want to know what sort of activities you can expect? Click <a href="#examples">here</a> to read some example exercises and activities.</p>
             </div>
             <div class="card-footer p-2 text-center">
              <a href="contact.html"> 
@@ -132,7 +139,7 @@
         </div>
 
         <!-- Card #3 -->
-        <div class="col-sm-2 col-lg-6 mb-4" id="package-3">
+        <div class="col-sm-8 col-lg-6 mb-4" id="package-3">
           <div class="card shadow card-content h-100">
             <img class="img-fluid" src="images/package-3.png" alt="Placeholder Image">
             <div class="card-body">
@@ -143,7 +150,7 @@
 	  <li class="header-two"> Includes 3 meals and a night on the camp,</li>
 	  <li class="header-two"> 1 follow up coaching talk,</li>
 	  <li class="header-two"> 150 euros per team member</li></p>
-				<p class="card-text header-two"> Want to know what sort of activities you can expect? Click <a href="https://www.instagram.com/sticktogethernl/">here</a> to read some example exercises and activities.</p>
+				<p class="card-text header-two"> Want to know what sort of activities you can expect? Click <a href="#examples">here</a> to read some example exercises and activities.</p>
             </div>
             <div class="card-footer p-2 text-center">
              <a href="contact.html"> 
@@ -158,7 +165,28 @@
       </div>
     </main>
     <!-- End of the grid with cards -->
-
+<section class="page-section bg-light" id="examples">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="header-one section-heading">What can you expect?</h2>
+              <h3 class="subheader section-subheading text-muted">Example exercises for your team!</h3>
+			  <div class="col-12 example"> 
+			  <p class="subheader" style="color: #ffffff"> Exercises include: </p>
+			  <li> Lake Canoe Relay: Dividing players into teams and have them participate in a canoe relay race on the lake, requiring coordination and teamwork to paddle effectively.</li>
+			  <li> Tree Climbing Challenge: Players work together to climb a tree in the forest, assisting each other and strategizing to reach the top, promoting teamwork and physical coordination.</li>
+			  <li> Campfire Bonding: Gather around a campfire in the forest for storytelling, singing, or sharing personal experiences, strengthening bonds, and building a sense of community among the players.</li>
+			  <li> Partner Pass and Move: Player’s pair up and pass the ball/puck to each other while moving around the field, emphasizing communication and coordination.</li>
+			  <li> Lake Crossing Challenge: Teams are given limited resources (such as planks, ropes, and barrels) and tasked with building a makeshift raft to cross the lake. This exercise requires strategic planning, cooperation, and physical effort to successfully navigate the water.</li>
+			  <li> Forest Obstacle Course: Set up a challenging obstacle course in the forest with various physical and mental challenges (e.g., climbing walls, crawling under nets, solving puzzles). Teams must work together to complete the course as quickly as possible, testing their endurance, coordination, and teamwork skills.</li>
+			  <li> Forest Capture the Flag: Dividing players into teams and play a game of capture the flag in the forest, with each team hiding their flag while trying to capture the opponent's flag. This high-energy game encourages strategic planning, teamwork, and tactical thinking.</li>
+			  <li> Forest Ropes Course: Setting up a ropes course in the forest with various elements such as zip lines, tightropes, and suspended bridges. Teams must navigate through the course together, relying on each other for support and encouragement while facing their fears and pushing their limits.</li>
+			  <li> Group Stretching and Yoga: Leading the team through a series of stretching and yoga exercises, promoting relaxation, flexibility, and unity.</li>
+				  </div>
+		  </div>
+		  
+      </div>
+  </section>
+			  
 		
     
     

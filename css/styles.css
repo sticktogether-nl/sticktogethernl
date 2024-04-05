@@ -145,7 +145,7 @@ footer a:hover {
 
 .package-1 {
 	background-image: linear-gradient(to bottom right, #f6afca, white);
-	border-color:#496afe;
+	border-color: #f6afca;
 	border-width: 5px;
 }
 
@@ -423,6 +423,13 @@ ul {
 img {
 	border-radius: 1.25rem !important;
 }
+
+.example {
+	background-color: #F1E0C9;
+	padding: 30px;
+	border-radius: 1.25rem;
+	background-image: linear-gradient(to bottom right, #f6afca, white);
+}
 /* fonts below */
 
 .header-one {
@@ -467,13 +474,14 @@ img {
 }
 
 .page-section {
-  padding: 100px;
+  padding-top: 100px;
 }
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;}
+  margin-bottom: 1rem;
+}
 
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
