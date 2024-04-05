@@ -143,6 +143,12 @@ footer a:hover {
 
 /* Discover Our World Vision & Mission Section*/
 
+.package-1 {
+	background-image: linear-gradient(to bottom right, #f6afca, white);
+	border-color:#496afe;
+	border-width: 5px;
+}
+
 .corners{
   border-radius: 1.25rem !important;
 }
@@ -368,7 +374,7 @@ border-radius: 1.25rem !important;
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid;
-  color:#0d9277;
+  color:#f6afca;
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
