@@ -51,7 +51,7 @@ border-color: #f6afca;
 }
 
 .hero-image {
-	background-image:url("../images/Ontwerp zonder titel-4.jpeg");
+	background-image:url("../images/hero-image.jpeg");
 	padding-top: 800px;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -388,7 +388,7 @@ border-radius: 1.25rem !important;
 /*contact section*/
 
 .contact {
-  background-image:url("../images/Ontwerp\ zonder\ titel-4.png");
+  background-image:url("../images/hero-image.jpeg");
 	background-repeat: no-repeat;
   background-size: cover;
 	background-position: center;
