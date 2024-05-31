@@ -21,6 +21,10 @@ a {
 	color: #EE4C39 !important;
 }
 
+.cards img{
+	object-fit: cover !important;
+}
+
 /* home page*/
 
 .home-page-img img{
@@ -149,6 +153,16 @@ footer a:hover {
 	border-width: 5px;
 }
 
+.package-2 {
+	background-image: linear-gradient(to bottom right, #f6afca, white);
+	border-color: #f6afca;
+	border-width: 5px;
+}
+.package-3 {
+	background-image: linear-gradient(to bottom right, #f6afca, white);
+	border-color: #f6afca;
+	border-width: 5px;
+}
 .corners{
   border-radius: 1.25rem !important;
 }
